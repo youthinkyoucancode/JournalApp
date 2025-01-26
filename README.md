@@ -13,9 +13,9 @@
 
 ## Screenshots 📸
 
-![Login Screen](C:\Users\abbie\OneDrive\Images\login_screen.png)
-![Main Screen](C:\Users\abbie\OneDrive\Images\main_screen.png)
-![Add Entry Screen](C:\Users\abbie\OneDrive\Images\add_entry_screen.png)
+![Login Screen](login_screen.png)
+![Main Screen](main_screen.png)
+![Add Entry Screen](add_entry_screen.png)
 
 
 ## Getting Started 🛠️
