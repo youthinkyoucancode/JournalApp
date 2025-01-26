@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "675649771109",
+    "project_id": "journal-8af72",
+    "storage_bucket": "journal-8af72.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675649771109:android:160e59a44eb5541e23588c",
+        "android_client_info": {
+          "package_name": "com.abir.journalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHD2bpk6qW5WrY9_6medou9JdAlpzyZPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
