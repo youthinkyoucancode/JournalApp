@@ -13,9 +13,9 @@
 
 ## Screenshots 📸
 
-![Login Screen](login_screen.png)
-![Main Screen](main_screen.png)
-![Add Entry Screen](add_entry_screen.png)
+| Login Screen                     | Main Screen                      | Add Entry Screen                   |
+|----------------------------------|----------------------------------|------------------------------------|
+| ![Login](login_screen.png)       | ![Main](main_screen.png)         | ![Add Entry](add_entry_screen.png) |
 
 
 ## Getting Started 🛠️
