@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Firebase Authentication and Firestore require network access -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -25,10 +28,10 @@
             android:name=".activities.LoginActivity"
             android:exported="false" />
 
-        <!-- RegisterActivity: Handles user registration -->
+        <!-- RegisterActivity: Handles user registration (launched only from LoginActivity) -->
         <activity
             android:name=".activities.RegisterActivity"
-            android:exported="true" />
+            android:exported="false" />
 
         <!-- AddEditEntryActivity: Handles adding or editing journal entries -->
         <activity

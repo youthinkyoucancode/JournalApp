@@ -76,7 +76,8 @@ object FirebaseHelper {
                         id = doc.id // Ensure the ID is populated for editing or deleting
                     }
                 }
-                onSuccess(entries)
+                // Sort newest-first on the client (avoids needing a Firestore composite index)
+                onSuccess(entries.sortedByDescending { it.createdAt })
             }
             .addOnFailureListener { exception -> onFailure(exception) }
     }
@@ -101,7 +102,10 @@ object FirebaseHelper {
                     return@addSnapshotListener
                 }
 
-                val entries = snapshot?.toObjects(JournalEntry::class.java) ?: emptyList()
+                // Sort newest-first on the client (avoids needing a Firestore composite index)
+                val entries = snapshot?.toObjects(JournalEntry::class.java)
+                    ?.sortedByDescending { it.createdAt }
+                    ?: emptyList()
                 onUpdate(entries)
             }
     }

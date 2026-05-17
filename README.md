@@ -1,5 +1,10 @@
 # JournalApp 📓
 
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
+![Platform](https://img.shields.io/badge/Platform-Android%207.0%2B-3DDC84?logo=android&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
 **JournalApp** is a modern and user-friendly journaling application for Android. It allows users to log in, create, edit, and delete personal journal entries. Each user's data is securely stored and isolated using Firebase Authentication and Firestore.
 
 ## Features 🚀
@@ -16,6 +21,11 @@
 | Login Screen                     | Main Screen                      | Add Entry Screen                   |
 |----------------------------------|----------------------------------|------------------------------------|
 | ![Login](login_screen.png)       | ![Main](main_screen.png)         | ![Add Entry](add_entry_screen.png) |
+
+
+## Download 📥
+
+Grab the latest signed APK from the [**Releases**](../../releases) page and install it on any Android device (Android 7.0 or newer).
 
 
 ## Getting Started 🛠️
@@ -40,7 +50,7 @@
 ### Firebase Setup
 
 - Ensure **Email/Password Authentication** is enabled in your Firebase Console.
-- Create a Firestore database in test mode.
+- Create a Firestore database. "Test mode" is fine for local development — but before sharing the app, switch to production rules that restrict each entry to its owner's `userId`.
 
 ### Running the App
 
@@ -66,4 +76,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-### Made with ❤️ by Abir
+### Made by Abir

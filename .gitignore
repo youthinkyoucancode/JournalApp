@@ -1,15 +1,28 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
+# Built files
 /build
+/app/build
 /captures
+
+# Release artifacts — the APK is published via GitHub Releases, not committed
+/app/release/
+*.apk
+*.aab
+
+# Gradle
+.gradle
+
+# Local configuration
+local.properties
+/local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Native build
 .externalNativeBuild
 .cxx
-local.properties
+
+# OS files
+.DS_Store
+Thumbs.db
